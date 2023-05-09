@@ -1,0 +1,18 @@
+{
+    "id": "cpp",
+    "name": "Setup C++",
+    "version": "1.0.0",
+    "capAdd": ["SYS_PTRACE"],
+	"securityOpt": ["seccomp=unconfined"],
+    "customizations": {
+        "vscode": {
+            "extensions": [
+				"ms-vscode.cpptools",
+				"ms-vscode.cmake-tools"
+            ]
+        }
+    },
+    "installsAfter": [
+        "ghcr.io/devcontainers/features/common-utils"
+    ]
+}

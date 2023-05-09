@@ -1,0 +1,12 @@
+{
+    "id": "LaTex",
+    "name": "Setup LaTex",
+    "version": "1.0.0",
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "James-Yu.latex-workshop"
+            ]
+        }
+    }
+}
