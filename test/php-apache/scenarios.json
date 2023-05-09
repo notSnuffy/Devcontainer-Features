@@ -16,7 +16,7 @@
         }
     },
     "apache": {
-        "image": "mcr.microsoft.com/devcontainers/base:focal",
+        "image": "mcr.microsoft.com/devcontainers/base:jammy",
         "features": {
             "php-apache": {
                 "apachePort": "8081"
