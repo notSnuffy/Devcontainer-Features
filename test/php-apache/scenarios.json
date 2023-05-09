@@ -1,0 +1,26 @@
+{
+    "port": {
+        "image": "mcr.microsoft.com/devcontainers/base:focal",
+        "features": {
+            "php-apache": {
+                "apachePort": "8081"
+            }
+        }
+    },
+    "php": {
+        "image": "mcr.microsoft.com/devcontainers/base:focal",
+        "features": {
+            "php-apache": {
+                "apachePort": "8081"
+            }
+        }
+    },
+    "apache2": {
+        "image": "mcr.microsoft.com/devcontainers/base:focal",
+        "features": {
+            "php-apache": {
+                "apachePort": "8081"
+            }
+        }
+    }
+}

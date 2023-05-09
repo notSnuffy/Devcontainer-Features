@@ -10,8 +10,11 @@
             "description": "Install PHP Composer?"
         },
         "apachePort": {
-            "type": "number",
-            "default": 8081,
+            "type": "string",
+            "proposals": [
+                "8081"
+            ],
+            "default": "8081",
             "description": "Port to expose Apache on"
         }
     },

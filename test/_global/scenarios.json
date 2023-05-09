@@ -1,0 +1,15 @@
+{
+    "php_latex_cpp": {
+        "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+        "features": {
+            "php-apache": {
+                "installComposer": "true",
+                "apachePort": "8082"
+            },
+            "cpp": {
+            },
+            "LaTex": {
+            }
+        }
+    }
+}
