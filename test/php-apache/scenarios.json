@@ -15,7 +15,7 @@
             }
         }
     },
-    "apache2": {
+    "apache": {
         "image": "mcr.microsoft.com/devcontainers/base:focal",
         "features": {
             "php-apache": {

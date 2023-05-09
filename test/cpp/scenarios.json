@@ -1,0 +1,9 @@
+{
+    "cpp": {
+        "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+        "features": {
+            "cpp": {
+            }
+        }
+    }
+}
