@@ -1,7 +1,7 @@
 {
     "id": "php-apache",
     "name": "Setup PHP + Apache",
-    "postCreateCommand": "sudo service apache2 start",
+    "postStartCommand": "sudo service apache2 start",
     "version": "1.0.0",
     "options": {
         "installComposer": {
